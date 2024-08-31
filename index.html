@@ -1,17 +1,26 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		
-		<title>Document</title>
-	</head>
-	<body>
-		<div>
-			<input type="text" id="name" placeholder="Ingrese el pokemon a buscar" />
-			<button type="button" id="search">Buscar Pokemon</button>
-		</div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>POKEDEX</h1>
+    <div class="buscador">
+      <input
+        type="text"
+        class="inputPokemon"
+        id="name"
+        placeholder="Ingrese el pokemon a buscar"
+      />
+      <button type="button" class="btnSearch" id="search">
+        Buscar Pokemon
+      </button>
+    </div>
+    <div class="pokemon" id="pokeData"></div>
 
-		<script src="index.js"></script>
-	</body>
+    <script src="index.js"></script>
+  </body>
 </html>
