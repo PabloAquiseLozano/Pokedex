@@ -1,0 +1,19 @@
+h1 {
+  text-align: center;
+}
+
+.buscador {
+  width: 100%;
+  display: flex;
+  object-fit: contain;
+  gap: 0.5em;
+  justify-content: center;
+}
+
+.inputPokemon {
+  width: 30%;
+}
+
+.btnSearch {
+  width: 15%;
+}
